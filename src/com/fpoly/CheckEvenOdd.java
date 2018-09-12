@@ -24,13 +24,4 @@ public class CheckEvenOdd {
             return false;
         }
     }
-
-    public static void main(String[] args) {
-        CheckEvenOdd checkEvenOdd = new CheckEvenOdd();
-        int value = (int) (Math.pow(2,32)-1);
-        System.out.println(checkEvenOdd.check(String.valueOf(value)));
-        System.out.println(value);
-        System.out.println(Integer.MAX_VALUE);
-        long a = Long.MAX_VALUE;
-    }
 }
