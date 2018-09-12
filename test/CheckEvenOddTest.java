@@ -24,10 +24,17 @@ public class CheckEvenOddTest {
         assertEquals(check, true);
     }
 
-    //check 1
+    //check -1
     @Test
     public void enterValueIsNegative1() {
-        boolean check = checkEvenOdd.check("1");
+        boolean check = checkEvenOdd.check("-1");
+        assertEquals(check, false);
+    }
+
+    //check -2
+    @Test
+    public void enterValueIsNegative2() {
+        boolean check = checkEvenOdd.check("-2");
         assertEquals(check, false);
     }
 
